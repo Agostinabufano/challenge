@@ -1,0 +1,79 @@
+body {
+  margin: 0%;
+  background-image: url("img/DSC100789535.png");
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #2F324C;
+  justify-content: center;
+}
+
+.generalContainer {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.generalContainer .userCard {
+  font-family: "Lexend Exa", sans-serif;
+  background-color: rgba(211, 211, 211, 0.918);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 500px, height 600px;
+  margin: 5px;
+  align-items: center;
+  font-size: 10px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.generalContainer .userCard span {
+  white-space: wrap;
+}
+.generalContainer .userCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+}
+.generalContainer .userCard .plus {
+  margin: 4px;
+}
+.generalContainer .userCard .plus .fas {
+  color: #2F324C;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lexend Exa", sans-serif;
+}
+.userProfile h1 {
+  font-family: "Lexend Exa", sans-serif;
+}
+.userProfile img {
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button button {
+  background-color: #2F324C;
+  color: whitesmoke;
+  border: 0px;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

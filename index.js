@@ -18,8 +18,8 @@ app.get('/', function (req,res,next) {
 
 app.listen(3000, function (err) {
     if (err) {
-        console.log('NADA DE GARCHAR WACHO. SEGUI INTENTANDO ENTRAR')
+        console.log('ERROR')
     } else {
-        console.log('BIEN AHI. ENTRASTE!!!')
+        console.log('OK.ENTRASE!')
     }
 })
